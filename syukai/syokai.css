@@ -46,8 +46,18 @@ footer {
 
 .top {
     font-size: 50px;
-    position: fixed;
     padding: 30px;
+    position: fixed;
+    top: 83%;
+    left: 92%;
+}
+
+a {
+    color: #0f5438;
+}
+
+a:hover {
+    color: #0f5438;
 }
 
 .end li {

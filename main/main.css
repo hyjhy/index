@@ -36,6 +36,7 @@ h4 {
 .green {
     position: sticky;
     top: 0;
+    z-index: 99;
 }
 
 .green-box {
@@ -79,8 +80,39 @@ a:hover {
     font-size: 25px;
 }
 
-/* 이미지 안에 글자 */
+.back2 {
+    width: 300px;
+    height: 80px;
+}
 
+.mm {
+    position: relative;
+    top: 0;
+    left: 17%;
+    padding: 0;
+}
+
+.mm1 {
+    position: relative;
+    top: -20%;
+    left: 40%;
+    padding: 0;
+
+}
+
+.eco {
+    padding: 50px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.eco1 {
+    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/* 이미지 안에 글자 */
 .sya {
     background: url(https://cdn.imweb.me/thumbnail/20220518/035b8eddfa53f.jpg);
     background-size: cover;
@@ -94,22 +126,47 @@ a:hover {
 .sya-1 {
     width: 100%;
     height: 100%;
-    background-color: rgba(225, 225, 225, 0.7);
+    background-color: rgba(225, 225, 225, 0.8);
 }
 
-.st {
+.st1 {
     color: white;
     background-color: #0f5438;
-    height: 100vh;
+    position: relative;
+    top: 18%;
+    left: 3%;
+
+}
+
+.st2 {
+    color: white;
+    background-color: #0f5438;
+    position: relative;
+    top: 20%;
+    left: 17%;
+}
+
+.st3 {
+    position: relative;
+    top: 20%;
+    left: 18%;
+}
+
+.st4 {
+    position: relative;
+    top: 22%;
+    left: -5%;
 }
 
 .pro {
     font-size: 110px;
-    line-height: -120px;
+    position: relative;
+    top: 35%;
+    left: -5%;
+    z-index: 1;
 }
 
 /* 이미지 안에 글자 */
-
 .stores {
     padding: 120px;
     display: flex;
@@ -129,15 +186,6 @@ a:hover {
 .green-img2 {
     width: 50%;
     margin-left: 24%;
-}
-
-.eco800 {
-    width: 100%;
-    height: 400px;
-}
-
-.eco800 p {
-    margin-left: 250px;
 }
 
 p {
@@ -234,6 +282,7 @@ textarea {
     border: 1px solid #fff;
     border-bottom-color: #555;
     color: black;
+    resize: none;
 }
 
 footer {
