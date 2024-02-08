@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+h1 {
+    color: white;
+    font-size: 100px;
+    font-weight: 800;
+    line-height: 700px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+h4 {
+    font-size: 17px;
+    text-align: center;
+    border: 1px solid white;
+    border-bottom: 2px solid;
+    margin: 50px;
+    padding: 25px;
+    color: #0f5438;
+}
+
+.section1 {
+    background: url(./자연건축물.jpg) no-repeat 50% 0 fixed;
+    height: 700px;
+    background-size: cover;
+}
+
+.green {
+    position: sticky;
+    top: 0;
+}
+
+.green-box {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    background-color: #0f5438;
+    color: white;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+}
+
+.agr {
+    display: inline-block;
+    padding: 15px 40px;
+    background-color: #0f5438;
+    color: #ffffff;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    border-radius: 50px;
+}
+
+a:hover {
+    background-color: white;
+    color: #0f5438;
+}
+
+.genkyu1 {
+    text-align: center;
+}
+
+.genkyu {
+    background-color: #0f5438;
+    color: white;
+    padding: 20px;
+    width: 800px;
+    font-size: 25px;
+}
+
+/* 이미지 안에 글자 */
+
+.sya {
+    background: url(./초록\ 사무실.jpeg);
+    background-size: cover;
+    width: 840px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sya-1 {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(225, 225, 225, 0.7);
+}
+
+.st {
+    color: white;
+    background-color: #0f5438;
+    height: 100vh;
+}
+
+.pro {
+    font-size: 110px;
+    line-height: -120px;
+}
+
+/* 이미지 안에 글자 */
+
+.stores {
+    padding: 120px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 21px;
+    color: #0f5438;
+}
+
+.syoko {
+    margin-left: 20%;
+}
+
+.green-img1 {
+    width: 100%;
+}
+
+.green-img2 {
+    width: 50%;
+    margin-left: 24%;
+}
+
+.eco800 {
+    width: 100%;
+    height: 400px;
+}
+
+.eco800 p {
+    margin-left: 250px;
+}
+
+p {
+    text-align: center;
+    padding: 40px;
+    font-size: 18px;
+    color: rgb(85, 85, 85);
+}
+
+p b {
+    color: #0f5438;
+}
+
+.green-pr {
+    font-size: 18px;
+}
+
+.mondai {
+    border-top: 1px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    background-color: #f5f5f5;
+    border: 1px solid black;
+    margin: auto;
+    display: block;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+/* 공백 */
+.back {
+    width: 400px;
+    height: 90px;
+}
+
+/* 문의사항 */
+fieldset {
+    background-color: #f4f6f9;
+    width: 1100px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #f4f6f9;
+}
+
+fieldset>legend {
+    font-size: 30px;
+    color: #0f5438;
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+fieldset li {
+    margin: 26px;
+}
+
+.text {
+    width: 500px;
+    height: 30px;
+    border: 1px solid #fff;
+    border-bottom-color: #555;
+}
+
+.icon-required {
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    background: #f25656;
+    border-radius: 50%;
+    margin-left: 5px;
+    vertical-align: 2px;
+}
+
+.checkbox {
+    margin-left: 30px;
+}
+
+.checkbox1 {
+    margin-left: 150px;
+}
+
+textarea {
+    border: 1px solid #fff;
+    border-bottom-color: #555;
+    color: black;
+}
+
+footer {
+    height: 400vh;
+}
+
+.home {
+    text-decoration: none;
+}
+
+.tree {
+    width: 500px;
+    height: 300px;
+    margin: 5px;
+}
+
+.grid {
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 9%;
+    z-index: -99;
+}

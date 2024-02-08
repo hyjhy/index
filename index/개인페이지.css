@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    color: white;
+    font-size: 150px;
+    font-weight: 800;
+    line-height: 700px;
+    text-align: center;
+}
+
+.section1 {
+    background: url(./대자연.jpg) no-repeat 50% 0 fixed;
+    height: 790px;
+    background-size: cover;
+}
+
+.section2 {
+    background: url(./river-6175173.jpg) no-repeat 50% 0 scroll;
+    height: 790px;
+    background-size: cover;
+}
+
+.section3 {
+    background: url(./인테리어.jpg) no-repeat 50% 0 fixed;
+    height: 790px;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+}
