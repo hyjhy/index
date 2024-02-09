@@ -35,11 +35,6 @@ footer {
     padding: 15px;
 }
 
-.end>p {
-    border-top: 1px solid black;
-    color: rgb(152, 152, 152);
-}
-
 .end {
     color: rgb(152, 152, 152);
 }
@@ -51,6 +46,18 @@ footer {
     top: 83%;
     left: 92%;
 }
+
+.usiro {
+    position: fixed;
+    font-size: 30px;
+    padding: 30px;
+    text-decoration: none;
+}
+
+.usiro2 {
+    text-decoration: none;
+}
+
 
 a {
     color: #0f5438;

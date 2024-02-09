@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* 기본 스타일 설정 */
+    body {
+      margin: 0;
+      overflow: hidden;
+    }
+
+    #container {
+      position: relative;
+      width: 80%;
+      height: 100vh;
+    }
+
+    #text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: black;
+      background-color: gray;
+      font-size: 24px;
+      opacity: 0;
+      transition: opacity 0.3s ease-in-out;
+    }
+
+    #container:hover #text {
+      opacity: 1;
+    }
+  </style>
+</head>
+<body>
+
+<div id="container">
+  <div id="text">마우스를 올려보세요</div>
+</div>
+
+</body>
+</html>
