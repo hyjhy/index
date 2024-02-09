@@ -2,6 +2,32 @@
     padding: 0;
     margin: 0;
     list-style: none;
+    text-decoration: none;
+}
+
+header h2 {
+    color: #0f5438;
+}
+
+header b {
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+nav h1 {
+    color: white;
+    background-color: #0f5438;
+    text-align: center;
+    padding: 20px;
+}
+
+body {
+    background-color: #f5f5f5;
 }
 
 section {
