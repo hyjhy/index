@@ -5,20 +5,70 @@
     text-decoration: none;
 }
 
+.top {
+    display: flex;
+    position: absolute;
+    position: absolute;
+    top: 4%;
+    left: 68%;
+}
+
+.dropdown-content {
+    display: none;
+}
+
+ul:hover .dropdown-content {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    background-color: #f5f5f5;
+}
+
+.dropdown-content:hover {
+    background-color: gray;
+}
+
+.dropdown-content li a {
+    color: black;
+}
+
+a {
+    color: black;
+}
+
+.top1:hover {
+    padding: 5px 5px;
+    background-color: #0f5438;
+    color: #ffffff;
+    transition: background-color 0.3s;
+    border-radius: 50px;
+}
+
+.content {
+    padding: 10px;
+}
+
+.top2:hover {
+    background-color: gray;
+    color: #ffffff;
+    transition: background-color 0.3s;
+}
+
 header h2 {
     color: #0f5438;
 }
 
 header b {
-    padding: 20px;
+    padding: 20px 25px 0;
 }
 
 header {
     display: flex;
-    justify-content: space-between;
     padding: 20px;
 }
 
+
+/*  */
 nav h1 {
     color: white;
     background-color: #0f5438;
@@ -65,12 +115,19 @@ footer {
     color: rgb(152, 152, 152);
 }
 
-.top {
-    font-size: 50px;
+.top3 {
+    font-size: 40px;
     padding: 30px;
     position: fixed;
-    top: 83%;
+    top: 85%;
     left: 92%;
+}
+
+.fa-arrow-up {
+    text-align: center;
+    background-color: #f5f5f5;
+    width: 50px;
+    padding: 7px;
 }
 
 .usiro {
@@ -82,11 +139,6 @@ footer {
 
 .usiro2 {
     text-decoration: none;
-}
-
-
-a {
-    color: #0f5438;
 }
 
 a:hover {

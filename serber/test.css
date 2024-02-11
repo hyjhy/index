@@ -56,6 +56,7 @@ a {
     background-color: gray;
     color: #ffffff;
     transition: background-color 0.3s;
+
 }
 
 header h2 {
@@ -98,25 +99,25 @@ nav h1 {
 }
 
 #wrap li:nth-child(1) {
-    background: url(https://cdn.imweb.me/upload/S20220318b8271c9a37983/b18259239ea7c.jpg);
+    background: url(https://cdn.imweb.me/upload/S20220318b8271c9a37983/b9b91ea49442b.jpg);
     background-size: cover;
     background-position: center;
 }
 
 #wrap li:nth-child(2) {
-    background: url(https://cdn.imweb.me/upload/S20220318b8271c9a37983/b335171dd173f.jpg);
+    background: url(https://cdn.imweb.me/upload/S20220318b8271c9a37983/6db828c763204.jpg);
     background-size: cover;
     background-position: center;
 }
 
 #wrap li:nth-child(3) {
-    background: url(https://cdn.imweb.me/upload/S20220318b8271c9a37983/077a2678b75a6.jpg);
+    background: url(https://cdn.imweb.me/upload/S20220318b8271c9a37983/4b635052ae2bc.jpg);
     background-size: cover;
     background-position: center;
 }
 
 #wrap li:nth-child(4) {
-    background: url(https://cdn.imweb.me/upload/S20220318b8271c9a37983/41b4d0b22d197.jpg);
+    background: url(https://cdn.imweb.me/upload/S20220318b8271c9a37983/236d2ecb475f6.jpg);
     background-size: cover;
     background-position: center;
 }
