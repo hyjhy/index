@@ -41,7 +41,6 @@ h4 {
 
 .section1 {
     background: url(./자연건축물.jpg) no-repeat 50% 0 fixed;
-    height: 700px;
     background-size: cover;
 }
 
@@ -95,12 +94,15 @@ nav {
     padding: 20px;
     width: 800px;
     font-size: 25px;
+    position: relative;
+    top: 0;
+    left: 28%;
 }
 
 .neder {
     position: relative;
     top: 5px;
-    left: 7%;
+    left: 24%;
     padding: 0;
     font-size: 18px;
     color: rgb(85, 85, 85);
@@ -147,9 +149,12 @@ nav {
     background-size: cover;
     width: 840px;
     height: 500px;
-    display: flex;
+    position: relative;
+    top: 0;
+    left: 28%;
+    /* display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center; */
 }
 
 .sya-1 {
@@ -202,10 +207,6 @@ nav {
     justify-content: space-around;
     font-size: 21px;
     color: #0f5438;
-}
-
-.syoko {
-    margin-left: 20%;
 }
 
 .green-img1 {
