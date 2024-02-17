@@ -94,18 +94,13 @@ nav {
     padding: 20px;
     width: 800px;
     font-size: 25px;
-    position: relative;
-    top: 0;
-    left: 28%;
 }
 
 .neder {
-    position: relative;
-    top: 5px;
-    left: 24%;
     padding: 0;
     font-size: 18px;
     color: rgb(85, 85, 85);
+    margin-left: 14%;
 }
 
 .back2 {
@@ -149,12 +144,10 @@ nav {
     background-size: cover;
     width: 840px;
     height: 500px;
-    position: relative;
-    top: 0;
-    left: 28%;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center; */
+}
+
+.syoko {
+    margin-left: 20%;
 }
 
 .sya-1 {
