@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>주문 수량 조절</title>
+    <style>
+        #quantityContainer {
+            display: flex;
+            align-items: center;
+        }
+
+        #quantityDisplay {
+            font-size: 18px;
+            margin: 0 10px;
+        }
+
+        .quantityButton {
+            font-size: 16px;
+            cursor: pointer;
+            padding: 5px 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>음식 주문</h1>
+
+    <div id="quantityContainer">
+        <button class="quantityButton" onclick="decreaseQuantity()">-</button>
+        <span id="quantityDisplay">1</span>
+        <button class="quantityButton" onclick="increaseQuantity()">+</button>
+    </div>
+
+    <script>
+        var quantityDisplay = document.getElementById("quantityDisplay");
+
+        function increaseQuantity() {
+            var currentQuantity = parseInt(quantityDisplay.innerText);
+            quantityDisplay.innerText = currentQuantity + 1;
+        }
+
+        function decreaseQuantity() {
+            var currentQuantity = parseInt(quantityDisplay.innerText);
+            if (currentQuantity > 1) {
+                quantityDisplay.innerText = currentQuantity - 1;
+            }
+        }
+    </script>
+</body>
+</html>
