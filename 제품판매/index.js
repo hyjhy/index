@@ -1,6 +1,6 @@
 let big = document.querySelector("#big");
 let smallPics = document.querySelectorAll(".small");
-let originalSrc = big.src;
+const originalSrc = big.src;
 
 for (let i = 0; i < smallPics.length; i++) {
     smallPics[i].addEventListener("click", changePic);
@@ -17,7 +17,7 @@ function changePic() {
 // 제품------------------------------------------------
 let big1 = document.querySelector("#big1");
 let smallPics1 = document.querySelectorAll(".small1");
-let originalSrc1 = big1.src;
+const originalSrc1 = big1.src;
 
 for (let i = 0; i < smallPics1.length; i++) {
     smallPics1[i].addEventListener("click", changePic1);
@@ -34,7 +34,7 @@ function changePic1() {
 // 제품------------------------------------------------
 let big2 = document.querySelector("#big2");
 let smallPics2 = document.querySelectorAll(".small2");
-let originalSrc2 = big2.src;
+const originalSrc2 = big2.src;
 
 for (let i = 0; i < smallPics2.length; i++) {
     smallPics2[i].addEventListener("click", changePic2);
