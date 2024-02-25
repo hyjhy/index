@@ -5,6 +5,10 @@
     text-decoration: none;
 }
 
+a {
+    color: black;
+}
+
 .top {
     display: flex;
     position: absolute;
@@ -31,7 +35,7 @@ ul:hover .dropdown-content {
 .dropdown-content li a {
     color: black;
 }
-    
+
 .top1:hover {
     padding: 5px 5px;
     background-color: #0f5438;

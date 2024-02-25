@@ -156,6 +156,11 @@ footer {
     height: 170px;
     padding: 15px;
 }
+
 .shopping {
     padding: 20px;
+}
+
+a {
+    color: black;
 }

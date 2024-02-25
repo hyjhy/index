@@ -39,6 +39,11 @@ article {
     position: relative;
     overflow: hidden;
 }
+
+a {
+    color: black;
+}
+
 /* ----------------------------- */
 
 .seulgi1 {
