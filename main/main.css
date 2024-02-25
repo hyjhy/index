@@ -105,22 +105,12 @@ nav {
     height: 80px;
 }
 
-.mm {
-    position: relative;
-    top: 0;
-    left: 17%;
-    padding: 0;
+.ms {
+    display: flex;
+    justify-content: space-evenly;
     font-size: 18px;
     color: rgb(85, 85, 85);
-}
-
-.mm1 {
-    position: relative;
-    top: 0;
-    left: 35%;
-    padding: 0;
-    font-size: 18px;
-    color: rgb(85, 85, 85);
+    padding: 20px;
 }
 
 .eco {
@@ -132,6 +122,15 @@ nav {
 .eco1 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+}
+
+.eco2 {
+    display: flex;
+    align-items: center;
+}
+
+.eco2 img {
+    margin: 5px;
 }
 
 /* 이미지 안에 글자 */
@@ -299,10 +298,6 @@ fieldset li {
 
 .checkbox1 {
     margin-left: 150px;
-}
-
-footer {
-    height: 400vh;
 }
 
 .home {

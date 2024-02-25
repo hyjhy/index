@@ -183,3 +183,22 @@ button:hover {
     background-color: black;
     color: white;
 }
+
+.end li {
+    margin: 15px;
+    text-align: center;
+}
+
+.end {
+    color: rgb(152, 152, 152);
+}
+
+footer {
+    background-color: black;
+    height: 170px;
+    padding: 15px;
+}
+
+.shopping {
+    padding: 20px;
+}

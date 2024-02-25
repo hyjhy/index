@@ -171,6 +171,25 @@ nav h1 {
     padding: 20px;
 }
 
+.end li {
+    margin: 15px;
+    text-align: center;
+}
+
+.end {
+    color: rgb(152, 152, 152);
+}
+
+footer {
+    background-color: black;
+    height: 170px;
+    padding: 15px;
+}
+
+.shopping {
+    padding: 20px;
+}
+
 #wrap {
     width: 1000px;
     margin: 0 auto;
