@@ -335,3 +335,11 @@ footer {
     opacity: 0.6;
     cursor: pointer;
 }
+/* 문의하기 */
+iframe{
+    width: 500px;
+    height: 140px;
+    border: 1px solid #f5f5f5;
+    border-bottom: 1px solid;
+    background-color: white;
+}
