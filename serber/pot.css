@@ -8,6 +8,83 @@
 body {
     background-color: #f5f5f5;
 }
+article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.seulgiimg {
+    width: 600px;
+    height: 400px;
+}
+
+.ryoko {
+    display: flex;
+}
+
+.seulgi1,
+.holl1 {
+    width: 600px;
+    height: 140px;
+    background-color: rgba(0, 0, 0, 0);
+    background-color: #f5f5f5;
+}
+
+.sm {
+    padding: 2% 0 0;
+}
+
+.seulgi {
+    margin: 5px;
+}
+
+.seulgi p {
+    text-align: center;
+    font-size: 16px;
+}
+
+.holl p {
+    text-align: center;
+}
+
+.seulgi2 {
+    text-align: center;
+    font-size: 25px;
+    padding: 1%;
+}
+
+.seulgi:hover .seulgiimg {
+    opacity: 0.6;
+}
+
+.seulgi1:hover .hidde {
+    display: block;
+    background-color: #f5f5f5;
+}
+
+.seulgi1:hover {
+    transform: translateY(-80px);
+    transform-origin: 0 100%;
+    background-color: #f5f5f5;
+}
+
+.hidde {
+    display: none;
+    color: rgb(85, 85, 85);
+}
+
+.hidde p {
+    padding: 1% 0 1%;
+}
+
+/* -------------------------------------- */
+
+
+#instagram{
+    font-size: 30px;
+}
 
 .top {
     display: flex;
@@ -72,7 +149,7 @@ header {
 
 .back{
     width: 400px;
-    height: 50px;
+    height: 30px;
 }
 
 nav h1 {
