@@ -97,7 +97,6 @@ nav {
     padding: 0;
     font-size: 18px;
     color: rgb(85, 85, 85);
-    /* margin-left: 18%; */
     float: right
 }
 
@@ -289,19 +288,18 @@ fieldset li {
     vertical-align: 2px;
 }
 
+.textmemo {
+    resize: none;
+    border: 1px solid #fff;
+    border-bottom: 1px solid black;
+}
+
 .checkbox {
     margin-left: 30px;
 }
 
 .checkbox1 {
     margin-left: 150px;
-}
-
-textarea {
-    border: 1px solid #fff;
-    border-bottom-color: #555;
-    color: black;
-    resize: none;
 }
 
 footer {
@@ -335,11 +333,27 @@ footer {
     opacity: 0.6;
     cursor: pointer;
 }
-/* 문의하기 */
-iframe{
+
+/* 마지막 */
+iframe {
     width: 500px;
     height: 140px;
     border: 1px solid #f5f5f5;
     border-bottom: 1px solid;
     background-color: white;
+}
+
+footer {
+    background-color: black;
+    height: 170px;
+    padding: 15px;
+}
+
+.end {
+    color: rgb(152, 152, 152);
+}
+
+.end li {
+    margin: 15px;
+    text-align: center;
 }

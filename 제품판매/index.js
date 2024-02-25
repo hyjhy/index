@@ -12,7 +12,7 @@ function changePic() {
 
     setTimeout(() => {
         big.setAttribute("src", originalSrc);
-    }, 5000);
+    }, 3000);
 }
 // 제품------------------------------------------------
 let big1 = document.querySelector("#big1");
@@ -29,7 +29,7 @@ function changePic1() {
 
     setTimeout(() => {
         big1.setAttribute("src", originalSrc1);
-    }, 5000);
+    }, 3000);
 }
 // 제품------------------------------------------------
 let big2 = document.querySelector("#big2");
@@ -46,7 +46,7 @@ function changePic2() {
 
     setTimeout(() => {
         big2.setAttribute("src", originalSrc2);
-    }, 5000);
+    }, 3000);
 }
 
 // 장바구니 리스트 ---------------------------------------
@@ -64,7 +64,7 @@ addButtons.forEach(addButton => {
         shoppingList.appendChild(newP);
 
         newP.style.fontSize = "20px";
-        newP.style.color = "white";
+        newP.style.color = "palegreen";
         newP.style.margin = "10px";
     });
 });

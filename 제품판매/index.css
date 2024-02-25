@@ -4,8 +4,9 @@
     list-style: none;
     text-decoration: none;
 }
+
 img {
-border-radius: 10px;
+    border-radius: 10px;
 }
 
 body {
@@ -39,10 +40,6 @@ ul:hover .dropdown-content {
     color: black;
 }
 
-a {
-    color: black;
-}
-
 .addItem {
     cursor: pointer;
 }
@@ -63,7 +60,6 @@ a {
     background-color: gray;
     color: #ffffff;
     transition: background-color 0.3s;
-
 }
 
 header h2 {
@@ -78,12 +74,14 @@ header {
     display: flex;
     padding: 20px;
 }
+
 nav h1 {
     color: white;
     background-color: #0f5438;
     text-align: center;
     padding: 20px;
 }
+
 /* eco800 그리드 및 style*/
 .eco {
     padding: 75px;
@@ -97,24 +95,30 @@ nav h1 {
     grid-template-columns: repeat(3, 1fr);
 }
 
-#big, #big1, #big2 {
+#big,
+#big1,
+#big2 {
     width: 670px;
     height: 276px;
 }
 
-.small, .small1, .small2 {
+.small,
+.small1,
+.small2 {
     width: 200px;
     margin: 10px;
     display: flex;
     cursor: pointer;
 }
+
 .box1 {
     margin-left: 16%;
     font-size: 20px;
 }
+
 /* 장바구니 영역 */
-#shoppingList{
-    width: 200px;
+#shoppingList {
+    width: 300px;
     height: 200px;
     background-color: #0f5438;
     border-radius: 10px;
@@ -122,29 +126,36 @@ nav h1 {
     text-align: center;
     position: fixed;
     top: 35%;
-    left: 90%;
-    transform: translate(-90%, -35%);
+    left: 95%;
+    transform: translate(-95%, -35%);
 }
-#shoppingList span{
+
+#shoppingList span {
     color: white;
     font-size: 22px;
     font-weight: bold;
 }
+
 /* 공백 */
 .bark {
     width: 100px 0;
     height: 50px;
-    /* background-color: black; */
 }
+
 .end li {
     margin: 15px;
     text-align: center;
 }
+
 .end {
     color: rgb(152, 152, 152);
 }
+
 footer {
     background-color: black;
     height: 170px;
     padding: 15px;
+}
+.shopping {
+    padding: 20px;
 }
