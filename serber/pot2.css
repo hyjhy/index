@@ -5,6 +5,13 @@
     text-decoration: none;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
 body {
     background-color: #f5f5f5;
 }
@@ -124,13 +131,11 @@ footer {
 
 .top {
     display: flex;
-    position: absolute;
-    top: 4%;
-    left: 68%;
 }
 
 .dropdown-content {
     display: none;
+    position: absolute;
 }
 
 ul:hover .dropdown-content {
@@ -138,10 +143,6 @@ ul:hover .dropdown-content {
     text-align: center;
     margin-top: 10px;
     background-color: #f5f5f5;
-}
-
-.dropdown-content:hover {
-    background-color: gray;
 }
 
 .dropdown-content li a {
@@ -160,8 +161,8 @@ ul:hover .dropdown-content {
     padding: 10px;
 }
 
-.top2:hover {
-    background-color: gray;
+.content:hover {
+    background-color: rgba(154, 149, 149, 0.81);
     color: #ffffff;
     transition: background-color 0.5s;
 }
