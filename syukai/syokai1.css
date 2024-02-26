@@ -28,11 +28,20 @@ header {
 ul:hover .dropdown-content {
     display: block;
     text-align: center;
-    background-color: #f5f5f5;
 }
 
 .dropdown-content li a {
     color: black;
+}
+
+.content1{
+    padding: 10px;
+    background-color: #fff;
+}
+
+.content1:hover {
+    background-color: gray;
+    transition: background-color 0.5s;
 }
 
 .top1:hover {
@@ -45,6 +54,8 @@ ul:hover .dropdown-content {
 
 .content {
     padding: 10px;
+    margin-top: 10%;
+    background-color: #fff;
 }
 
 .content:hover {

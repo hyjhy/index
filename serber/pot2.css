@@ -141,7 +141,16 @@ footer {
 ul:hover .dropdown-content {
     display: block;
     text-align: center;
-    background-color: #f5f5f5;
+}
+
+.content1{
+    padding: 10px;
+    background-color: #fff;
+}
+
+.content1:hover {
+    background-color: gray;
+    transition: background-color 0.5s;
 }
 
 .dropdown-content li a {
@@ -158,10 +167,12 @@ ul:hover .dropdown-content {
 
 .content {
     padding: 10px;
+    margin-top: 10%;
+    background-color: #fff;
 }
 
 .content:hover {
-    background-color: rgba(154, 149, 149, 0.81);
+    background-color: gray;
     color: #ffffff;
     transition: background-color 0.5s;
 }
