@@ -28,7 +28,6 @@ header {
 ul:hover .dropdown-content {
     display: block;
     text-align: center;
-    margin-top: 10px;
     background-color: #f5f5f5;
 }
 
