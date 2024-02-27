@@ -9,6 +9,8 @@ body {
     background-color: #f5f5f5;
 }
 
+/* ---------- header ------------------- */
+
 .top {
     display: flex;
 }
@@ -23,7 +25,7 @@ ul:hover .dropdown-content {
     text-align: center;
 }
 
-.content1{
+.content1 {
     padding: 10px;
     background-color: #fff;
 }
@@ -41,6 +43,7 @@ ul:hover .dropdown-content {
 .dropdown-content li a {
     color: black;
 }
+
 .dropdown-content li {
     background-color: #fff;
 }
@@ -66,18 +69,22 @@ header h2 {
 header b {
     padding: 20px 25px 0;
 }
-/* --------추가----------- */
+
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
 }
-/* --------추가----------- */
+
+/* ------------ header end ------------ */
+/* --------- 공백 --------------- */
 .back {
     width: 400px;
     height: 30px;
 }
+
+/* --------- 공백 --------------- */
 
 nav h1 {
     color: white;
@@ -192,6 +199,7 @@ button:hover {
     color: white;
 }
 
+/* ---------- footer ------------------ */
 .end li {
     margin: 15px;
     text-align: center;

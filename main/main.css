@@ -8,6 +8,7 @@ body {
     background-color: #f5f5f5;
 }
 
+/* -------- 각종 h태그들 style 정리 --------------- */
 h1 {
     color: white;
     font-size: 100px;
@@ -39,20 +40,19 @@ h4 {
     color: #0f5438;
 }
 
+/* -------- 각종 h태그들 style 정리 --------------- */
+/* -------- 보여지는 최상단 이미지 ------------------ */
 .section1 {
     background: url(./자연건축물.jpg) no-repeat 50% 0 fixed;
     background-size: cover;
 }
 
+/* -------- 보여지는 최상단 이미지 ------------------ */
+/* sticky box */
 .green {
     position: sticky;
     top: 0;
     z-index: 99;
-}
-
-.ipad {
-    position: relative;
-    top: 80px;
 }
 
 .green-box {
@@ -62,11 +62,6 @@ h4 {
     padding: 10px;
     background-color: #0f5438;
     color: white;
-}
-
-nav {
-    position: sticky;
-    top: 0;
 }
 
 .agr {
@@ -84,6 +79,12 @@ nav {
     color: #0f5438;
 }
 
+/* 사무공간 설명 style */
+.ipad {
+    position: relative;
+    top: 80px;
+}
+/* 이미지 안에 들어가는 모든 style */
 .genkyu {
     background-color: #0f5438;
     color: white;
@@ -99,12 +100,7 @@ nav {
     color: rgb(85, 85, 85);
     float: right
 }
-
-.back2 {
-    width: 300px;
-    height: 80px;
-}
-
+/* 제품판매 style */
 .ms {
     display: flex;
     justify-content: space-evenly;
