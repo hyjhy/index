@@ -1,0 +1,220 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+/* ---------- header ------------------- */
+
+.top {
+    display: flex;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+}
+
+ul:hover .dropdown-content {
+    display: block;
+    text-align: center;
+}
+
+.content1 {
+    padding: 10px;
+    background-color: #fff;
+}
+
+.content1:hover {
+    background-color: gray;
+    transition: background-color 0.5s;
+}
+
+.content:hover {
+    background-color: gray;
+    transition: background-color 0.5s;
+}
+
+.dropdown-content li a {
+    color: black;
+}
+
+.dropdown-content li {
+    background-color: #fff;
+}
+
+.top1:hover {
+    padding: 5px 5px;
+    background-color: #0f5438;
+    color: #ffffff;
+    transition: background-color 0.3s;
+    border-radius: 50px;
+}
+
+.content {
+    padding: 10px;
+    margin-top: 10%;
+    background-color: #fff;
+}
+
+header h2 {
+    color: #0f5438;
+}
+
+header b {
+    padding: 20px 25px 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+/* ------------ header end ------------ */
+/* --------- 공백 --------------- */
+.back {
+    width: 400px;
+    height: 30px;
+}
+
+/* --------- 공백 --------------- */
+
+nav h1 {
+    color: white;
+    background-color: #0f5438;
+    text-align: center;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    padding: 20px;
+    color: #0f5438;
+}
+
+h4 {
+    font-size: 18px;
+    text-align: center;
+    border: 1px solid #f5f5f5;
+    border-bottom: 2px solid;
+    margin: 50px;
+    margin-left: 90px;
+    margin-right: 90px;
+    padding: 20px;
+    color: #0f5438;
+}
+
+/* ------------------------------------------- */
+/* 문의사항 */
+fieldset {
+    background-color: #f4f6f9;
+    width: 1100px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #f4f6f9;
+}
+
+fieldset>legend {
+    font-size: 30px;
+    color: #0f5438;
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+fieldset li {
+    margin: 26px;
+}
+
+.text {
+    width: 500px;
+    height: 30px;
+    border: 1px solid #fff;
+    border-bottom-color: #555;
+}
+
+.icon-required {
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    background: #f25656;
+    border-radius: 50%;
+    margin-left: 5px;
+    vertical-align: 2px;
+}
+
+.textmemo {
+    resize: none;
+    border: 1px solid #fff;
+    border-bottom: 1px solid black;
+}
+
+.checkbox {
+    margin-left: 30px;
+}
+
+.checkbox1 {
+    margin-left: 150px;
+}
+
+.mondai {
+    border-top: 1px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+iframe {
+    width: 500px;
+    height: 140px;
+    border: 1px solid #f5f5f5;
+    border-bottom: 1px solid;
+    background-color: white;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    background-color: #f5f5f5;
+    border: 1px solid black;
+    margin: auto;
+    display: block;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+/* ---------- footer ------------------ */
+.end li {
+    margin: 15px;
+    text-align: center;
+}
+
+.end {
+    color: rgb(152, 152, 152);
+}
+
+footer {
+    background-color: black;
+    height: 170px;
+    padding: 15px;
+}
+
+.shopping {
+    padding: 20px;
+}

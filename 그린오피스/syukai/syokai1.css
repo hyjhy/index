@@ -1,0 +1,168 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+a {
+    color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.top {
+    display: flex;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+}
+
+ul:hover .dropdown-content {
+    display: block;
+    text-align: center;
+}
+
+.dropdown-content li a {
+    color: black;
+}
+
+.content1{
+    padding: 10px;
+    background-color: #fff;
+}
+
+.content1:hover {
+    background-color: gray;
+    transition: background-color 0.5s;
+}
+
+.top1:hover {
+    padding: 5px 5px;
+    background-color: #0f5438;
+    color: #ffffff;
+    transition: background-color 0.3s;
+    border-radius: 50px;
+}
+
+.content {
+    padding: 10px;
+    margin-top: 10%;
+    background-color: #fff;
+}
+
+.content:hover {
+    background-color: gray;
+    transition: background-color 0.5s;
+}
+
+header h2 {
+    color: #0f5438;
+}
+
+header b {
+    padding: 20px 25px 0;
+}
+
+header {
+    display: flex;
+    padding: 20px;
+}
+
+nav h1 {
+    color: white;
+    background-color: #0f5438;
+    text-align: center;
+    padding: 20px;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+section {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.icon {
+    font-size: 200px;
+    padding: 70px;
+}
+
+.hon li {
+    padding: 15px;
+}
+
+h3,
+h1 {
+    padding: 10px;
+}
+
+img {
+    width: 800px;
+    height: 400px;
+}
+
+footer {
+    background-color: black;
+    height: 170px;
+    padding: 15px;
+}
+
+.end {
+    color: rgb(152, 152, 152);
+}
+
+.top3 {
+    font-size: 40px;
+    padding: 30px;
+    position: fixed;
+    top: 85%;
+    left: 92%;
+}
+
+.fa-arrow-up {
+    text-align: center;
+    background-color: #f5f5f5;
+    width: 50px;
+    padding: 7px;
+}
+
+.usiro {
+    position: fixed;
+    font-size: 30px;
+    padding: 30px;
+    text-decoration: none;
+}
+
+.usiro2 {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0f5438;
+}
+
+.end li {
+    margin: 15px;
+    text-align: center;
+}
+
+.green {
+    width: 700px;
+    height: 400px;
+}
+
+.back {
+    width: 300px;
+    height: 40px;
+}
